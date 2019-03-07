@@ -1,10 +1,8 @@
 
 body {
-    padding: -100px;
-    max-width: 960px;
-    border-style: solid;
-    border-width: 4px;
-    background-color: grey;
+   margin:0 auto;
+   background-color:#4aaaa5;
+   background-image: url(../images/mosaic.png);
 }
 
 
@@ -35,11 +33,23 @@ nav {
     list-style: none;
  }
 
+ nav li {
+     display: inline-block;
+     margin-left: 30px;
+     margin-top: 10px;
+     padding-right: 15px;
+ }
+
 header {
     Position: absolute;
     top: 0;
     width: 100%;
     background-color: whitesmoke;
+}
+
+.container {
+    background-color:#ffffff;
+    width: 100%;
 }
 
 #NameTag {
@@ -51,11 +61,13 @@ header {
 
 
 
-footer {
-    position: absolute;
+.footer {
     bottom: 0;
     width: 100%;
     padding: 20px;
     clear: both;
-    background: whitesmoke;
+    color: #666666;
+    text-align: center;
+    z-index: 10;
+    position: absolute;
   }
