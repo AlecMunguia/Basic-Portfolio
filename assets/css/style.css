@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    background-color: white;
-    align-content: center;
-    
-  }
 
 body {
     padding: -100px;
@@ -15,7 +9,7 @@ body {
 
 
 .mainContainer {
-    background-color: rgb(42, 182, 182);
+    background-color: #dddddd;
     position: absolute;
     width: 960px;
     margin-left: 20%;
@@ -31,12 +25,17 @@ body {
     float: left;
 }
 
-.Navigation {
-   float: right;
-}
+nav {
+    float:right;
+ }
+ 
+ nav ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+ }
 
 header {
-    overflow: hidden;
     Position: absolute;
     top: 0;
     width: 100%;
@@ -53,6 +52,9 @@ header {
 
 
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     padding: 20px;
     clear: both;
     background: whitesmoke;
