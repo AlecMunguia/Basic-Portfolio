@@ -13,11 +13,18 @@ body {
     background-color: grey;
 }
 
-p {
-    width: 960px;
-    border: 4px;
-    border-color: whitesmoke;
 
+.mainContainer {
+    background-color: rgb(42, 182, 182);
+    position: absolute;
+    width: 960px;
+    margin-left: 20%;
+    margin-right: 20%;
+    top: 300px;
+    border: 2px;
+    border-color: black;
+    bottom: 200px;
+    
 }
 
 #photo {
