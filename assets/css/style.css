@@ -1,8 +1,14 @@
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+    overflow: auto;
+  }
 
 body {
    margin:0 auto;
    background-color:#4aaaa5;
-   background-image: url(../images/mosaic.png);
+   background-image: url(../images/white-waves.png);
 }
 
 
@@ -12,7 +18,7 @@ body {
     width: 960px;
     margin-left: 20%;
     margin-right: 20%;
-    top: 300px;
+    top: 200px;
     border: 2px;
     border-color: black;
     bottom: 200px;
@@ -27,25 +33,31 @@ nav {
     float:right;
  }
  
- nav ul {
-    margin:0;
+nav ul {
+    position: absolute;
+    margin-left: 33%;
     padding:0;
     list-style: none;
  }
 
- nav li {
+nav li {
      display: inline-block;
      margin-left: 30px;
      margin-top: 10px;
      padding-right: 15px;
+     color: whitesmoke;
  }
 
 header {
     Position: absolute;
     top: 0;
+    display: flex;
+    height: 80px;
     width: 100%;
     background-color: whitesmoke;
+    border-bottom: 3px solid grey;
 }
+
 
 .container {
     background-color:#ffffff;
@@ -53,21 +65,23 @@ header {
 }
 
 #NameTag {
-    Padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    height: 83px;
     max-width: 320px;
-    Margin-bottom: 20px;
+    margin-left: 20%;
+    color: whitesmoke;
     background-color: teal;
+    float: left;
 }
 
 
 
 .footer {
+    position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 20px;
-    clear: both;
-    color: #666666;
+    height: 80px;
+    color: white;
+    background-color: black;
     text-align: center;
-    z-index: 10;
-    position: absolute;
   }
