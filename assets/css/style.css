@@ -21,8 +21,8 @@ body {
     top: 200px;
     border: 2px;
     border-color: black;
-    bottom: 200px;
-    
+    bottom: 100px;   
+    font-family: 'Montserrat', sans-serif;
 }
 
 #photo {
@@ -58,6 +58,10 @@ header {
     border-bottom: 1px solid #666666;
 }
 
+#About {
+    font-family: 'Montserrat', sans-serif;
+    color: #4aaaa5;
+}
 
 .container {
     background-color:#ffffff;
