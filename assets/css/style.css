@@ -59,7 +59,7 @@ header {
     border-bottom: 1px solid #666666;
 }
 
-#About {
+.formTitle {
     font-family: 'Montserrat', sans-serif;
     color: #4aaaa5;
 }
@@ -128,4 +128,12 @@ img {
     margin-top: 5px;
     border-color: #dddddd;
 }
+#grid {
+    position: relative;
+    display: inline;
+}
 
+.Item {
+    padding-left: 20px;
+    Padding-top: 100px;
+}
