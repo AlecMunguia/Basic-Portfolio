@@ -18,7 +18,7 @@ body {
     width: 960px;
     margin-left: 20%;
     margin-right: 20%;
-    top: 200px;
+    top: 120px;
     border: 2px;
     border-color: black;
     bottom: 100px;   
@@ -27,6 +27,7 @@ body {
 
 #photo {
     float: left;
+    
 }
 
 nav {
@@ -78,9 +79,17 @@ header {
     float: left;
 }
 
+article {
+    margin: 20px;
+    overflow: auto;
+}
 
+img {
+    float: left;
+    padding-right: 20px;
+}
 
-.footer {
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -91,3 +100,10 @@ header {
     text-align: center;
 
   }
+
+#copyright {
+    Position: fixed;
+    bottom: 0;
+    right: 45%;
+    color: whitesmoke;
+}
