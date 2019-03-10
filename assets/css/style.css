@@ -107,3 +107,25 @@ img {
     right: 45%;
     color: whitesmoke;
 }
+
+#nameInput {
+    width: 99%;
+    padding-left: 5px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+#emailInput {
+    width: 99%;
+    padding-left: 5px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+#messageInput {
+    width: 99%;
+    padding-left: 5px;
+    margin-top: 5px;
+    border-color: #dddddd;
+}
+
